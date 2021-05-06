@@ -1,0 +1,28 @@
+{
+    "live": [
+        {
+            "team1": {
+                "PACT": "Rank: 95"
+            },
+            "team2": {
+                "Sangal": "Rank: 57"
+            },
+            "bo": "bo3",
+            "url": "https://www.hltv.org/matches/2348529/pact-vs-sangal-lootbet-season-9",
+            "event": "LOOT.BET Season 9",
+            "maps": "Dust2,Nuke,Train"
+        },
+        {
+            "team1": {
+                "NAVI Junior": "Rank: 64"
+            },
+            "team2": {
+                "Caronte": "Rank: 87"
+            },
+            "bo": "bo3",
+            "url": "https://www.hltv.org/matches/2348361/navi-junior-vs-caronte-republeague-tipos-season-1",
+            "event": "REPUBLEAGUE TIPOS Season 1",
+            "maps": "Inferno,Train,Vertigo"
+        }
+    ]
+}
