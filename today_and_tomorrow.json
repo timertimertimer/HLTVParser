@@ -1,161 +1,89 @@
 {
-    "today (Thursday - 2021-05-06)": [
+    "today (Saturday - 2021-05-08)": [
         {
             "team1": {
-                "SKADE": "Rank: 20"
+                "Heroic": "Rank: 2"
             },
             "team2": {
-                "Endpoint": "Rank: 27"
+                "Natus Vincere": "Rank: 4"
             },
             "bo": "bo3",
-            "url": "https://www.hltv.org/matches/2348364/skade-vs-endpoint-republeague-tipos-season-1",
-            "event": "REPUBLEAGUE TIPOS Season 1",
-            "time": "15:30"
+            "url": "https://www.hltv.org/matches/2348012/heroic-vs-natus-vincere-dreamhack-masters-spring-2021",
+            "event": "DreamHack Masters Spring 2021",
+            "time": "21:00"
         },
         {
             "team1": {
-                "AGO": "Rank: 33"
+                "HONORIS": "Rank: 78"
             },
             "team2": {
-                "Tricked": "Rank: 45"
+                "PACT": "Rank: 95"
             },
             "bo": "bo3",
-            "url": "https://www.hltv.org/matches/2348376/ago-vs-tricked-blast-rising-2021",
-            "event": "BLAST Rising 2021",
-            "time": "16:00"
-        },
-        {
-            "team1": {
-                "OFFSET": "Rank: 71"
-            },
-            "team2": {
-                "Lyngby Vikings": "Rank: 52"
-            },
-            "bo": "bo3",
-            "url": "https://www.hltv.org/matches/2348530/offset-vs-lyngby-vikings-lootbet-season-9",
-            "event": "LOOT.BET Season 9",
-            "time": "17:50"
+            "url": "https://www.hltv.org/matches/2348534/honoris-vs-pact-esl-polish-championship-spring-2021",
+            "event": "ESL Polish Championship Spring 2021",
+            "time": "21:00"
         },
         {
             "team1": {
                 "Copenhagen Flames": "Rank: 46"
             },
             "team2": {
-                "Anonymo": "Rank: 43"
+                "Astralis Talent": "Rank: 160"
             },
             "bo": "bo3",
-            "url": "https://www.hltv.org/matches/2348362/copenhagen-flames-vs-anonymo-republeague-tipos-season-1",
-            "event": "REPUBLEAGUE TIPOS Season 1",
-            "time": "18:00"
-        },
-        {
-            "team1": {
-                "NAVI Junior": "Rank: 64"
-            },
-            "team2": {
-                "Lilmix": "Rank: 69"
-            },
-            "bo": "bo3",
-            "url": "https://www.hltv.org/matches/2348538/navi-junior-vs-lilmix-elisa-invitational-summer-2021-regionals",
+            "url": "https://www.hltv.org/matches/2348543/copenhagen-flames-vs-astralis-talent-elisa-invitational-summer-2021-regionals",
             "event": "Elisa Invitational Summer 2021 Regionals",
-            "time": "18:00"
+            "time": "21:00"
         }
     ],
-    "tomorrow (Friday - 2021-05-07)": [
+    "tomorrow (Sunday - 2021-05-09)": [
         {
             "team1": {
-                "forZe": "Rank: 25"
+                "Copenhagen Flames": "Rank: 46"
             },
             "team2": {
-                "Sprout": "Rank: 30"
+                "Fiend": "Rank: 58"
             },
             "bo": "bo3",
-            "url": "https://www.hltv.org/matches/2348365/forze-vs-sprout-republeague-tipos-season-1",
-            "event": "REPUBLEAGUE TIPOS Season 1",
-            "time": "12:00"
+            "url": "https://www.hltv.org/matches/2348575/copenhagen-flames-vs-fiend-lootbet-season-9",
+            "event": "LOOT.BET Season 9",
+            "time": "10:50"
         },
         {
             "team1": {
-                "SAW": "Rank: 31"
+                "Dire Wolves": "Rank: 97"
             },
             "team2": {
+                "ORDER": "Rank: 100"
+            },
+            "bo": "bo5",
+            "url": "https://www.hltv.org/matches/2348570/dire-wolves-vs-order-esl-australia-nz-championship-season-12",
+            "event": "ESL Australia & NZ Championship Season 12",
+            "time": "11:00"
+        },
+        {
+            "team1": {
                 "Young Ninjas": "Rank: 47"
             },
-            "bo": "bo3",
-            "url": "https://www.hltv.org/matches/2348366/saw-vs-young-ninjas-republeague-tipos-season-1",
-            "event": "REPUBLEAGUE TIPOS Season 1",
-            "time": "15:00"
-        },
-        {
-            "team1": {
-                "MAD Lions": "Rank: 68"
-            },
             "team2": {
-                "ALTERNATE aTTaX": "Rank: 76"
+                "KOVA": "Rank: 79"
             },
             "bo": "bo3",
-            "url": "https://www.hltv.org/matches/2348378/mad-lions-vs-alternate-attax-blast-rising-2021",
-            "event": "BLAST Rising 2021",
-            "time": "16:00"
-        },
-        {
-            "team1": {
-                "G2": "Rank: 8"
-            },
-            "team2": {
-                "Astralis": "Rank: 3"
-            },
-            "bo": "bo3",
-            "url": "https://www.hltv.org/matches/2348009/g2-vs-astralis-dreamhack-masters-spring-2021",
-            "event": "DreamHack Masters Spring 2021",
-            "time": "17:45"
-        },
-        {
-            "team1": {
-                "AGO": "Rank: 33"
-            },
-            "team2": {
-                "Pompa": "Rank: 89"
-            },
-            "bo": "bo3",
-            "url": "https://www.hltv.org/matches/2348532/ago-vs-pompa-esl-polish-championship-spring-2021",
-            "event": "ESL Polish Championship Spring 2021",
-            "time": "18:00"
-        },
-        {
-            "team1": {
-                "Apeks": "Rank: 51"
-            },
-            "team2": {
-                "EC Brugge": "Rank: 72"
-            },
-            "bo": "bo3",
-            "url": "https://www.hltv.org/matches/2348540/apeks-vs-ec-brugge-elisa-invitational-summer-2021-regionals",
+            "url": "https://www.hltv.org/matches/2348544/young-ninjas-vs-kova-elisa-invitational-summer-2021-regionals",
             "event": "Elisa Invitational Summer 2021 Regionals",
             "time": "18:00"
         },
         {
             "team1": {
-                "FURIA": "Rank: 7"
+                "Lyngby Vikings": "Rank: 52"
             },
             "team2": {
-                "Natus Vincere": "Rank: 4"
+                "AGF": "Rank: 74"
             },
             "bo": "bo3",
-            "url": "https://www.hltv.org/matches/2348010/furia-vs-natus-vincere-dreamhack-masters-spring-2021",
-            "event": "DreamHack Masters Spring 2021",
-            "time": "21:00"
-        },
-        {
-            "team1": {
-                "Wisla Krakow": "Rank: 44"
-            },
-            "team2": {
-                "ESCA": "Rank: 86"
-            },
-            "bo": "bo3",
-            "url": "https://www.hltv.org/matches/2348533/wisla-krakow-vs-esca-esl-polish-championship-spring-2021",
-            "event": "ESL Polish Championship Spring 2021",
+            "url": "https://www.hltv.org/matches/2348545/lyngby-vikings-vs-agf-elisa-invitational-summer-2021-regionals",
+            "event": "Elisa Invitational Summer 2021 Regionals",
             "time": "21:00"
         }
     ]

@@ -14,7 +14,11 @@ def make_match(m):
     if len(team_ranks) == 2:
         team1_rank = team_ranks[0].text.split()[-1][1:]
         team2_rank = team_ranks[1].text.split()[-1][1:]
-        if int(team1_rank) <= 100 and int(team2_rank) <= 100 and int(bo[-1]) >= 3:
+        if team1_rank == 'nranked':
+            team1_rank = '101'
+        if team2_rank == 'nranked':
+            team2_rank = '101'
+        if (int(team1_rank) <= 100 or int(team2_rank) <= 100) and int(bo[-1]) >= 3:
             team_names = m.find_all('div', {'class': 'matchTeamName text-ellipsis'})
             match_obj['team1'] = {team_names[0].text: 'Rank: ' + team1_rank}
             match_obj['team2'] = {team_names[1].text: 'Rank: ' + team2_rank}
