@@ -1,64 +1,18 @@
 {
     "live": [
         {
-            "team1": {
-                "EC Brugge": "Rank: 72"
-            },
-            "team2": {
-                "LowLandLions": "Rank: 250"
-            },
+            "team1": [
+                "Evil Geniuses",
+                "Rank: 38"
+            ],
+            "team2": [
+                "OG",
+                "Rank: 20"
+            ],
             "bo": "bo3",
-            "url": "https://www.hltv.org/matches/2348573/ec-brugge-vs-lowlandlions-esl-benelux-summer-championship-2021",
-            "event": "ESL Benelux Summer Championship 2021",
-            "maps": "Train,Mirage,Vertigo"
-        },
-        {
-            "team1": {
-                "BLINK": "Rank: 61"
-            },
-            "team2": {
-                "NASR": "Rank: 83"
-            },
-            "bo": "bo3",
-            "url": "https://www.hltv.org/matches/2348568/blink-vs-nasr-funspark-ulti-2021-europe-regional-series-2-closed-qualifier",
-            "event": "Funspark ULTI 2021 Europe Regional Series 2 Closed Qualifier",
-            "maps": "Vertigo,Mirage,Train"
-        },
-        {
-            "team1": {
-                "1WIN": "Rank: 56"
-            },
-            "team2": {
-                "100PG": "Rank: 77"
-            },
-            "bo": "bo3",
-            "url": "https://www.hltv.org/matches/2348569/1win-vs-100pg-funspark-ulti-2021-europe-regional-series-2-closed-qualifier",
-            "event": "Funspark ULTI 2021 Europe Regional Series 2 Closed Qualifier",
-            "maps": "Nuke,Dust2,Overpass"
-        },
-        {
-            "team1": {
-                "Sangal": "Rank: 57"
-            },
-            "team2": {
-                "Case": "Rank: 67"
-            },
-            "bo": "bo3",
-            "url": "https://www.hltv.org/matches/2348542/sangal-vs-case-elisa-invitational-summer-2021-regionals",
-            "event": "Elisa Invitational Summer 2021 Regionals",
-            "maps": "Nuke,Dust2,Inferno"
-        },
-        {
-            "team1": {
-                "AGO": "Rank: 33"
-            },
-            "team2": {
-                "Wisla Krakow": "Rank: 44"
-            },
-            "bo": "bo3",
-            "url": "https://www.hltv.org/matches/2348559/ago-vs-wisla-krakow-esl-polish-championship-spring-2021",
-            "event": "ESL Polish Championship Spring 2021",
-            "maps": "Dust2,Mirage,Nuke"
+            "url": "https://www.hltv.org/matches/2349011/evil-geniuses-vs-og-iem-summer-2021",
+            "event": "IEM Summer 2021",
+            "maps": "Dust2,Overpass,Inferno"
         }
     ]
 }

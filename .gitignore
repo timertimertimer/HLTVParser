@@ -129,3 +129,9 @@ dmypy.json
 .pyre/
 .idea
 test.py
+today_and_tomorrow.json
+live.json
+configure.py
+server.bat
+console.bat
+users.csv

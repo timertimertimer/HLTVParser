@@ -20,8 +20,8 @@ def make_match(m):
             team2_rank = '51'
         if (int(team1_rank) <= 50 or int(team2_rank) <= 50) and int(bo[-1]) >= 3:
             team_names = m.find_all('div', {'class': 'matchTeamName text-ellipsis'})
-            match_obj['team1'] = {team_names[0].text: 'Rank: ' + team1_rank}
-            match_obj['team2'] = {team_names[1].text: 'Rank: ' + team2_rank}
+            match_obj['team1'] = [team_names[0].text, 'Rank: ' + team1_rank]
+            match_obj['team2'] = [team_names[1].text, 'Rank: ' + team2_rank]
             match_obj['bo'] = bo
             match_obj['url'] = match_page_url
             match_obj['event'] = m.find("div", {"class": "matchEvent"}).text.strip()
@@ -36,6 +36,7 @@ headers = {
     "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
 }
 response = requests.get(url, headers=headers)
+print(response)
 Matches = BeautifulSoup(response.text, 'lxml')
 
 # Live matches
@@ -70,6 +71,6 @@ for day in today_and_tomorrow:
             day_matches.append(matchObj)
     matchesList.append(day_matches)
     i += 1
-tt = {'today (' + dates[0] + ')': matchesList[0], 'tomorrow (' + dates[1] + ')': matchesList[1]}
+tt = {'Сегодня (' + dates[0] + ')': matchesList[0], 'Завтра (' + dates[1] + ')': matchesList[1]}
 with open('today_and_tomorrow.json', 'w') as todayAndTomorrow:
     json.dump(tt, todayAndTomorrow, indent=4)
