@@ -36,7 +36,6 @@ headers = {
     "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
 }
 response = requests.get(url, headers=headers)
-print(response)
 Matches = BeautifulSoup(response.text, 'lxml')
 
 # Live matches
@@ -50,7 +49,6 @@ for match in liveMatches:
 lived = {'live': liveMatchesList}
 with open('live.json', 'w') as live:
     json.dump(lived, live, indent=4)
-
 upcomingMatches = Matches.find_all('div', {"class": 'upcomingMatchesSection'})
 
 # Today and tomorrow matches

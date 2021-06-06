@@ -1,7 +1,9 @@
+# - *- coding: utf- 8 - *-
 import telebot
 import json
 import configure
 from telebot import types
+
 
 def matchInfo(match, live):
     s = match["team1"][0] + ' (' + match["team1"][1] + ') vs ' + \
@@ -21,7 +23,6 @@ bot = telebot.TeleBot(configure.config["TOKEN"])
 
 @bot.message_handler(commands=['start'])
 def start(message):
-
     markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
     refresh = types.KeyboardButton("Обновить")
     glm = types.KeyboardButton("Лайвы")
