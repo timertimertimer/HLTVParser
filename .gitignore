@@ -129,8 +129,6 @@ dmypy.json
 .pyre/
 .idea
 test.py
-today_and_tomorrow.json
-live.json
 server.bat
 console.bat
 users.csv

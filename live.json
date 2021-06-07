@@ -1,0 +1,18 @@
+{
+    "live": [
+        {
+            "team1": [
+                "1WIN",
+                "Rank: 42"
+            ],
+            "team2": [
+                "VP.Prodigy",
+                "Rank: 51"
+            ],
+            "bo": "bo3",
+            "url": "https://www.hltv.org/matches/2349208/1win-vs-vpprodigy-spring-sweet-spring-3-regionals",
+            "event": "Spring Sweet Spring 3 Regionals",
+            "maps": "Ancient,Dust2,Mirage"
+        }
+    ]
+}
